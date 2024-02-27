@@ -1,0 +1,7 @@
+a = int(input()) #take input from user
+if a % 500 == 0 or a % 200 == 0:
+  print("success")
+elif a - 500 >= 200 and a % 200 == 100:
+  print("success")
+else:
+  print("failure")
